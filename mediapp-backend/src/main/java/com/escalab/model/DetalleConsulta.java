@@ -73,9 +73,4 @@ public class DetalleConsulta {
 	public void setTratamiento(String tratamiento) {
 		this.tratamiento = tratamiento;
 	}
-	
-	
-	
-	
-
 }
