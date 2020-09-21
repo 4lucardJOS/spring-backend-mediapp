@@ -1,5 +1,11 @@
 package com.escalab.repo;
 
-public interface IPacienteRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.escalab.model.Paciente;
+
+public interface IPacienteRepo extends JpaRepository<Paciente, Integer> {
+
+	//por defnir
+	
 }
